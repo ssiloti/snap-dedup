@@ -1,0 +1,1 @@
+I wrote this as part of a hacked together backup system. Once a week a script runs which rsyncs my home directory to a BTRFS array then takes a snapshot. This tool runs between the rsync and the snapshot to save space by deduping the live copy against the previous snapshot.

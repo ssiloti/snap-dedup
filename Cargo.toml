@@ -1,0 +1,8 @@
+[package]
+name = "snap-dedup"
+version = "0.1.0"
+authors = ["Steven Siloti <ssiloti@gmail.com>"]
+
+[dependencies]
+btrfs = "1.2"
+libc = "0.2"
